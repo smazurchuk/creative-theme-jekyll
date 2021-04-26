@@ -349,3 +349,7 @@ body {
     -webkit-tap-highlight-color: $theme-dark;
 }
 
+.mapCon {
+    overflow: scroll;
+    -webkit-overflow-scrolling: touch;  
+}
