@@ -17,13 +17,16 @@
     <!-- Custom Fonts -->
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css" type="text/css">
+
 
     <!-- Plugin CSS -->
     <link rel="stylesheet" href="css/animate.min.css" type="text/css">
 
     <!-- Custom CSS -->
     <link rel="stylesheet" href="css/main.css" type="text/css">
+
+    <!-- Font Awesome CDN -->
+    <script defer src="https://use.fontawesome.com/releases/v5.15.3/js/all.js"></script>
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -56,7 +59,7 @@
                     <a class="page-scroll" href="#about">About</a>
                 </li>
                 <li>
-                    <a class="page-scroll" href="#services">Services</a>
+                    <a class="page-scroll" href="#map">Find Us</a>
                 </li>
                 <li>
                     <a class="page-scroll" href="#portfolio">Portfolio</a>
@@ -109,7 +112,8 @@
         <div class="row">
             <div class="col-lg-3 col-md-6 text-center">
                 <div class="service-box">
-                    <i class="fa fa-4x fa-diamond wow bounceIn text-primary"></i>
+                    <!-- <i class="fas fa-cross"></i> -->
+                    <i class="fa fa-4x fa-cross wow bounceIn text-primary"></i>
                     <h3>Sturdy Templates</h3>
                     <p class="text-muted">Our templates are updated regularly so they don't break.</p>
                 </div>
@@ -141,16 +145,30 @@
 
   <section id="map">
     <div class="container">
-
-
         <div class="row">
             <div class="col-lg-12 text-center">
                 <h2 class="section-heading">Find Us</h2>
                 <hr class="primary">
             </div>
-            <div class="text-center">
+
+            <div class="col-lg-3 align-self-center">
+                <h3>Hours</h3>
+                <p >
+                    Saturday 08 - 23:00
+                </p>
+            </div>
+
+            <div class="col-lg-9 text-center">
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2914.500479599549!2d-87.88047228413362!3d43.0729723977726!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880518cbde1ce8f3%3A0x1379f600bb1a0ec0!2sNewman%20Center%20At%20Uw%20Milwaukee!5e0!3m2!1sen!2sus!4v1619472991370!5m2!1sen!2sus" width="80%" height="700vh" style="border:0;" allowfullscreen="true" loading="lazy"></iframe>
             </div>
+            
+
+
+
+
+            <!-- <div class="text-center">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2914.500479599549!2d-87.88047228413362!3d43.0729723977726!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880518cbde1ce8f3%3A0x1379f600bb1a0ec0!2sNewman%20Center%20At%20Uw%20Milwaukee!5e0!3m2!1sen!2sus!4v1619472991370!5m2!1sen!2sus" width="80%" height="700vh" style="border:0;" allowfullscreen="true" loading="lazy"></iframe>
+            </div> -->
         </div>
 
     </div>
@@ -269,28 +287,34 @@
                 <hr class="primary">
                 <p>Ready to start your next project with us? That's great! Give us a call or send us an email and we will get back to you as soon as possible!</p>
             </div>
-        <div class="col-lg-2 col-lg-offset-2 text-center">
-            <a href="https://twitter.com/">
-                <i class="fa fa-twitter fa-3x wow bounceIn" data-wow-delay=".1s"></i>
-                <p></p>
-            </a>
-        </div>
-        <div class="col-lg-2 col-lg-offset-1 text-center">
-            <a href="mailto:">
-            <i class="fa fa-envelope-o fa-3x wow bounceIn" data-wow-delay=".1s"></i>
-                <p></p>
-            </a>
-        </div>
-        <div class="col-lg-2 col-lg-offset-1 text-center">
-            <a href="https://github.com/">
-            <i class="fa fa-github fa-3x wow bounceIn" data-wow-delay=".1s"></i>
-                <p></p>
-            </a>
-        </div>
+            <div class="col-lg-4 col-lg-offset-4 text-center">
+                <form
+                    action="https://formspree.io/f/xleagdwd"
+                    method="POST"
+                >
+                    <div class="form-group">
+                        <input name="_name" type="name" class="form-control" id="name" placeholder="John Doe">
+                        <label for="name">Name</label>
+                    </div>
+                    <div class="form-group">
+                        <input name="_replyto" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                        <label for="exampleInputEmail1">Email address</label>
+                    </div>
+                    <div class="form-group">
+                        <textarea name="message" type="text" class="form-control" id="message" rows="4" placeholder="Place message here"></textarea>
+                        <label for="message">Message</label>
+                    </div>
+                    <div class="form-check">
+                        <input name="_button" type="checkbox" class="form-check-input" id="exampleCheck1">
+                        <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                    </div>
+                        <button type="submit" class="btn btn-primary">Send</button>
+                  </form>
+            </div>
+
 
     </div>
 </section>
-
   <!-- jQuery -->
 <script src="js/jquery.js"></script>
 
@@ -304,6 +328,7 @@
 
 <!-- Custom Theme JavaScript -->
 <script src="js/creative.js"></script>
+
 
 </body>
 
