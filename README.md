@@ -1,4 +1,21 @@
-# Creative Theme for Jekyll
+# Via Coffee
+
+This is a website built off of the [Creative Theme](http://startbootstrap.com/template-overviews/creative/) for Jekyll. 
+
+# Todo:
+* Add google analytics to site
+* Add SEO to site
+
+# Ideas:
+* Maybe have a video background like RW food pantry on landing page?
+* Change hover labels on portfolio pictures
+* Add contact info to bottom
+
+
+
+
+
+## Creative Theme for Jekyll
 
 A Jekyll implementation of the [Creative Theme](http://startbootstrap.com/template-overviews/creative/) template by [Start Bootstrap](http://startbootstrap.com).
 
@@ -7,8 +24,4 @@ The theme includes a number of rich features and plugins that you can use as a g
 
 See it live in action at <https://volny.github.io/creative-theme-jekyll/>
 
-## To use the Creative Theme template in your project
-
-- Start by adding your info in `_config.yml`
-- In `_layouts/front.html` reorder or remove section as you prefer.
 
