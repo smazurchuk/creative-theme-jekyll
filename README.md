@@ -10,6 +10,7 @@ This is a website built off of the [Creative Theme](http://startbootstrap.com/te
 * Maybe have a video background like RW food pantry on landing page?
 * Change hover labels on portfolio pictures
 * Add contact info to bottom
+* Can mention that the contact form can be anonymous. Might allow for more feedback
 
 
 
